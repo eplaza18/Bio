@@ -1,54 +1,42 @@
 <!DOCTYPE html>
 <head>
     <title>My bio page.</title>
-    <style>
-    
-        h1 {
-            text-align: center;
-            color: white;
-            background-color: purple;
-        }
-
-        h2 {
-            padding-left: 15px;
-        }
-
-        img {
-            float: left;
-            padding-left: 15px;
-            padding-right: 15px;
-            padding-top: 5px;
-            te
-        }
-
-        .right{
-            float: right;
-        }
-
-      
-        
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles/bio.css">
+           
 </head>
 
 <body>
-    <h1>Student Bio</h1>
+    <header>
+        <h1>Student Bio</h1>
+    </header>
 
-    <h2>Erik Plaza</h2> </br>
+    <div class="container">
+        
+        <section id="main-bio">
 
-    <img width="200px" src="Images/WIN_20190115_18_01_58_Pro (2).jpg"> 
+            <h2>Erik Plaza</h2>
 
-    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </br>
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </br>
-         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure </br>
-         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </br>
-         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt </br>
-         mollit anim id est laborum."</p>
+            <img width="200px" src="Images/WIN_20190115_18_01_58_Pro (2).jpg" alt="Erik Plaza" id = "bio-image"> 
 
-    <h2>Contact Info</h2>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat"</p>
 
-    <ul>
-        <li><strong>Email: </strong><a href="mailto: erikplaza@gmail.com">Erikplaza@gmail.com</a></li>
-        <li><strong>Github: </strong>eplaza18</li>
-        <li><strong>Portfolio: </strong>Coming Soon!</li>
-    </ul>
+        </section>
+
+        <section id="contact-info">
+
+            <h2>Contact Info</h2>
+
+            <ul>
+                <li><strong>Email: </strong><a href="mailto: erikplaza@gmail.com">Erikplaza@gmail.com</a></li>
+                <li><strong>Github: </strong><a href="https://github.com/eplaza18" target="_blank">
+                    eplaza18</a></li>
+                <li><strong>Portfolio: </strong>Coming Soon!</li>
+            </ul>
+        </section>  
+    </div>4
 </body>
+</html>
